@@ -1,0 +1,95 @@
+# ─────────────────────────────────────────────
+# ENVIRONMENT & SECRETS — never commit these
+# ─────────────────────────────────────────────
+.env
+.env.local
+.env.production
+.env.staging
+*.env
+
+# ─────────────────────────────────────────────
+# PYTHON
+# ─────────────────────────────────────────────
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# ─────────────────────────────────────────────
+# NODE / FRONTEND
+# ─────────────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.npm
+
+# ─────────────────────────────────────────────
+# LOGS
+# ─────────────────────────────────────────────
+logs/
+*.log
+
+# ─────────────────────────────────────────────
+# OS GENERATED
+# ─────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ─────────────────────────────────────────────
+# EDITORS & IDEs
+# ─────────────────────────────────────────────
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+
+# ─────────────────────────────────────────────
+# DOCKER
+# ─────────────────────────────────────────────
+*.override.yml
+
+# ─────────────────────────────────────────────
+# MISC
+# ─────────────────────────────────────────────
+*.xlsx
+create_data_sheet.py
