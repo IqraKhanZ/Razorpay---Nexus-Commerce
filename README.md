@@ -6,7 +6,7 @@
 
 ## Pitch Video
 
-**Video Link:** `[INSERT GOOGLE DRIVE LINK HERE]`
+**Video Link:** https://youtu.be/mOHPlKLqXZw
 
 ## Live Demo
 
